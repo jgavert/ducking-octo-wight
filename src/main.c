@@ -2,7 +2,7 @@
 #include "stdlib.h"
 #include "stdint.h"
 
-extern int mytz(uint32_t data);
+inline extern int mytz(uint32_t data);
 
 int zeroes(uint32_t data)
 {
